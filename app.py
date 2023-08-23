@@ -10,7 +10,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-mart_df = pd.read_csv(r"C:\Users\Patricia\Internship\merged_data.csv")
+mart_df = pd.read_csv("merged_data.csv")
 
 columns_to_drop = ['Order ID', 'Order Date', 'Ship Date', 'Customer Name', 'Sales']
 
